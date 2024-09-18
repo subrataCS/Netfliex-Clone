@@ -1,0 +1,173 @@
+@media (min-width:640px) and (max-width: 1146px) {
+    
+.middle-text{
+    /* border: 3px solid yellow; */
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.middle-text h1 {
+    font-size: 3.9rem;
+    /* border:2px solid yellow; */
+    font-weight: 800;
+    width: 90%;
+    margin:0 auto;
+    text-align: center;
+    margin-bottom: 1rem;
+    font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+    
+}
+
+.first-para {
+    /* border:2px solid yellow; */
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    font-family: sans-serif;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.middle-text p:not(.first-para) {
+    font-size: 1.2rem;
+    font-family: sans-serif;
+    /* border:2px solid yellow; */
+    margin-bottom: 1rem;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+
+
+
+.middle-text h1{
+    font-size: 2.2rem;
+    font-weight: 850;
+}
+.middle-text p{
+    font-size: 1.2rem;
+    
+}
+.search{
+    display: flex;
+    flex-direction: column;
+}
+
+.search input{
+    width: 60%;
+    padding:0.70rem;
+    margin-top: 0.70rem;
+
+}
+.search button{
+    font-size: 1.1rem;
+    margin-top: 0.70rem;
+    border-radius: 7px;
+    padding:0.80rem 2.5rem;
+}
+
+.first-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border:2px solid yellow; */
+    flex-direction: column;
+    
+}
+
+.text{
+    padding:0;
+    display: flex;
+    
+}
+
+.first-para,.text h2{
+    font-size: 2.2rem;
+    width: 100%;
+    text-align: center;
+    font-weight: 850;
+    margin-bottom: 1rem;
+}
+.first-para,.text p{
+    font-size: 1.5rem;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    font-family: sans-serif;
+    /* border:2px solid lime; */
+}
+
+.sec-img{
+    /* border:2px solid lime; */
+    padding:0;
+    margin-right: 0rem;
+    /* margin-top: 1rem; */
+    
+}
+
+.second-section{
+    display: flex;
+    /* flex-direction: column; */
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+}
+.second-section,.text-two h2{
+    font-size: 2.2rem;
+    font-weight: 850;
+    text-align: center;
+}
+.text-two{
+    /* border:2px solid blue; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    margin-top: 1rem;
+}
+
+.text-two p{
+    font-size: 1.5rem;
+        width: 90%;
+        font-weight: 400;
+        text-align: center;
+}
+
+.third-section{
+    display: flex;
+    flex-direction: column;
+}
+.third-img{
+    margin: 0;
+    /* border:2px solid red; */
+}
+
+#third-text{
+    /* border:3px solid yellow; */
+    text-align: center;
+    padding:0;
+    margin: 0;
+}
+
+.third-section p{
+    /* color:red; */
+    width: 80%;
+    font-size: 1.5rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
